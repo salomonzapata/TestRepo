@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "expo-dev",
+      "runtimeExecutable": "/usr/local/bin/npm",
+      "runtimeArgs": ["--prefix", "linguaworld", "run", "start"],
+      "port": 8081
+    },
+    {
+      "name": "expo-web",
+      "runtimeExecutable": "/usr/local/bin/npm",
+      "runtimeArgs": ["--prefix", "linguaworld", "run", "web"],
+      "port": 8081
+    },
+    {
+      "name": "expo-ios",
+      "runtimeExecutable": "/usr/local/bin/npm",
+      "runtimeArgs": ["--prefix", "linguaworld", "run", "ios"],
+      "port": 8081
+    },
+    {
+      "name": "expo-android",
+      "runtimeExecutable": "/usr/local/bin/npm",
+      "runtimeArgs": ["--prefix", "linguaworld", "run", "android"],
+      "port": 8081
+    }
+  ]
+}
